@@ -1,0 +1,12 @@
+body{
+	background: url(https://wallpaperscraft.com/image/line_angle_light_color_43982_2560x1600.jpg);
+}
+h1{
+	color: rgba(0,0,255,1);
+}
+h2{
+	color: rgba(0,0,255,0.9);
+}
+h2:nth-child(1){
+	color: rgba(0,0,255,0.6);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Run length encoder</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+<h1  >Compress your text data here </h1>
+<h2> Run Length encoding</h2>
+<p >Run-length encoding (RLE) is a very simple form of lossless data compression in which runs of data (that is, sequences in which the same data value occurs in many consecutive data elements) are stored as a single data value and count, rather than as the original run. This is most useful on data that contains many such runs. 
+It is not useful with files that don't have many runs as it could greatly increase the file size.</strong></p>
+<div>
+<h2>Enter text here without using  new line</h2>
+<label>
+<strong>Text area</strong>
+</label>
+<form>
+
+<textarea id="text" rows="6" cols="70" placeholder="Text area..." value="" autofocus=""\>
+
+</textarea>
+</form>
+<p>
+<button onclick="getText()">Compress</button>
+</p>
+<h4>Your encoded data is here</h4>
+<label>
+	<strong>Compressed text</strong>
+</label>
+<form>
+
+<textarea id="compressed" rows="6" cols="70">
+
+</textarea>
+</form>
+</div>
+<script type="text/javascript" src="encoder.js"></script>
+</body>
+</html>
